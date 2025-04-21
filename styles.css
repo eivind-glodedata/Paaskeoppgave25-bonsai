@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+}
+
+.hero {
+    display: flex;
+    flex-direction:column
+}
+
+.heroText, .heroImg {
+    width: 100%;
+}
+
+.heroText {
+
+    text-align: justify;
+}
+
+.eksempler{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.eksemplerTekst {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.eksemplerImg{
+    width: 70%;
+}
+
+.eksempler2, .eksempler3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+
+.eksempler2Tekst, .eksempler3Tekst {
+justify-content: left;
+}
+
+.eksempler2Img, .eksempler3Img {
+width: 75%;
+}
