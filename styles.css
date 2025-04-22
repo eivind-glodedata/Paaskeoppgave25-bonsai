@@ -7,6 +7,20 @@ body {
     flex-direction:column
 }
 
+.hero h1 {
+    font-size: 50px; /*endrer størrelse på hovedoverskriften*/
+    font-weight: normal;
+    
+}
+
+.hero h1:hover { /*pseudoklasse som endrer farge mens musen hovrer*/
+    color: brown;
+}
+
+h2 {
+    font-weight: normal;
+}
+
 .heroText, .heroImg {
     width: 100%;
 }
@@ -56,5 +70,16 @@ img {
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    /*font-family: "Mrs Saint Delafield";*/
+    font-family: 'Badeen Display';
+    font-size: xx-large;
+    
 }
+
+:root {
+    background: brown;
+}
+
+
